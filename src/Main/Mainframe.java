@@ -317,20 +317,21 @@ public class Mainframe extends javax.swing.JFrame {
         setPreferredSize(new java.awt.Dimension(444, 450));
         setResizable(false);
 
-        MainFrame.setBackground(new java.awt.Color(153, 153, 153));
+        MainFrame.setBackground(new java.awt.Color(14, 22, 36));
         MainFrame.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel3.setBackground(new java.awt.Color(102, 102, 102));
+        jPanel3.setBackground(new java.awt.Color(18, 32, 52));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        UsernameText.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        UsernameText.setForeground(new java.awt.Color(255, 255, 255));
+        UsernameText.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        UsernameText.setBackground(new java.awt.Color(14, 22, 36));
+        UsernameText.setForeground(new java.awt.Color(224, 232, 255));
         UsernameText.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         UsernameText.setText("USERNAME");
         jPanel3.add(UsernameText, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 420, 20));
 
         UsernameField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        UsernameField.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        UsernameField.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(63, 82, 118)));
         UsernameField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 UsernameFieldActionPerformed(evt);
@@ -338,14 +339,15 @@ public class Mainframe extends javax.swing.JFrame {
         });
         jPanel3.add(UsernameField, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 120, 300, 30));
 
-        PasswordText.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        PasswordText.setForeground(new java.awt.Color(255, 255, 255));
+        PasswordText.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        PasswordText.setBackground(new java.awt.Color(14, 22, 36));
+        PasswordText.setForeground(new java.awt.Color(224, 232, 255));
         PasswordText.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         PasswordText.setText("PASSWORD");
         jPanel3.add(PasswordText, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 420, 20));
 
         PasswordField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        PasswordField.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        PasswordField.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(63, 82, 118)));
         PasswordField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PasswordFieldActionPerformed(evt);
@@ -353,10 +355,11 @@ public class Mainframe extends javax.swing.JFrame {
         });
         jPanel3.add(PasswordField, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, 300, 30));
 
-        LoginBtnPanel.setBackground(new java.awt.Color(204, 204, 204));
+        LoginBtnPanel.setBackground(new java.awt.Color(0, 163, 173));
         LoginBtnPanel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        LoginText.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        LoginText.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        LoginText.setForeground(new java.awt.Color(255, 255, 255));
         LoginText.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         LoginText.setText("LOGIN");
         LoginText.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -365,25 +368,20 @@ public class Mainframe extends javax.swing.JFrame {
         LoginBtnPanel.setLayout(LoginBtnPanelLayout);
         LoginBtnPanelLayout.setHorizontalGroup(
             LoginBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, LoginBtnPanelLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(LoginText, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addComponent(LoginText, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
         );
         LoginBtnPanelLayout.setVerticalGroup(
             LoginBtnPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, LoginBtnPanelLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(LoginText, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addComponent(LoginText, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 36, Short.MAX_VALUE)
         );
 
-        jPanel3.add(LoginBtnPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 260, 160, 42));
+        jPanel3.add(LoginBtnPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 260, 160, 40));
 
-        RegisterPanel.setBackground(new java.awt.Color(102, 102, 102));
+        RegisterPanel.setBackground(new java.awt.Color(18, 32, 52));
 
-        jLabel1.setFont(new java.awt.Font("Bahnschrift", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Segoe UI Semibold", 0, 13)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 163, 173));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("REGISTER");
 
         javax.swing.GroupLayout RegisterPanelLayout = new javax.swing.GroupLayout(RegisterPanel);
         RegisterPanel.setLayout(RegisterPanelLayout);
@@ -396,23 +394,21 @@ public class Mainframe extends javax.swing.JFrame {
             .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE)
         );
 
-        // Move REGISTER section slightly down to leave room for hint text
-        jPanel3.add(RegisterPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 345, 420, 40));
+        jPanel3.add(RegisterPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 330, 420, 40));
 
-        Welcoming.setBackground(new java.awt.Color(255, 255, 255));
-        Welcoming.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        Welcoming.setForeground(new java.awt.Color(255, 255, 255));
+        Welcoming.setBackground(new java.awt.Color(18, 32, 52));
+        Welcoming.setFont(new java.awt.Font("Segoe UI Semibold", 0, 22)); // NOI18N
+        Welcoming.setForeground(new java.awt.Color(236, 244, 255));
         Welcoming.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Welcoming.setText("Welcome to Parking Slotwise");
         jPanel3.add(Welcoming, new org.netbeans.lib.awtextra.AbsoluteConstraints(-1, 30, 420, -1));
 
-        Extra.setBackground(new java.awt.Color(255, 255, 255));
-        Extra.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        Extra.setForeground(new java.awt.Color(255, 255, 255));
+        Extra.setBackground(new java.awt.Color(18, 32, 52));
+        Extra.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
+        Extra.setForeground(new java.awt.Color(139, 152, 176));
         Extra.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Extra.setText("Don't have an account? ");
-        // Place this hint text between LOGIN button (ends ~304px) and REGISTER panel (starts 345px)
-        jPanel3.add(Extra, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 320, 180, -1));
+        Extra.setText("Doesn't have an account? ");
+        jPanel3.add(Extra, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 310, 180, -1));
 
         MainFrame.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 420, 430));
 

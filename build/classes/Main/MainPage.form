@@ -52,7 +52,7 @@
         <Container class="javax.swing.JPanel" name="DashPanel">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="99" green="99" red="99" type="rgb"/>
+              <Color blue="24" green="16" red="0e" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
@@ -68,7 +68,7 @@
             <Container class="javax.swing.JPanel" name="SETTINGS">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="66" green="66" red="66" type="rgb"/>
+                  <Color blue="4a" green="2d" red="1e" type="rgb"/>
                 </Property>
               </Properties>
               <Events>
@@ -114,7 +114,7 @@
             <Container class="javax.swing.JPanel" name="LogoutPanel">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="66" green="66" red="66" type="rgb"/>
+                  <Color blue="4a" green="2d" red="1e" type="rgb"/>
                 </Property>
               </Properties>
               <Events>
@@ -182,7 +182,7 @@
             <Container class="javax.swing.JPanel" name="PARKINGSLOTPANEL">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="66" green="66" red="66" type="rgb"/>
+                  <Color blue="4a" green="2d" red="1e" type="rgb"/>
                 </Property>
               </Properties>
               <Events>
@@ -231,7 +231,7 @@
             <Container class="javax.swing.JPanel" name="RESERVATIONPANEL">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="66" green="66" red="66" type="rgb"/>
+                  <Color blue="4a" green="2d" red="1e" type="rgb"/>
                 </Property>
               </Properties>
               <Events>

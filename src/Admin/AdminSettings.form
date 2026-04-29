@@ -37,7 +37,7 @@
     <Container class="javax.swing.JPanel" name="mainPanel">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="99" green="99" red="99" type="rgb"/>
+          <Color blue="2a" green="17" red="0f" type="rgb"/>
         </Property>
       </Properties>
 
@@ -75,7 +75,7 @@
         <Container class="javax.swing.JPanel" name="EditUserPanel">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="66" green="66" red="66" type="rgb"/>
+              <Color blue="4a" green="2d" red="1e" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
@@ -117,7 +117,7 @@
         <Container class="javax.swing.JPanel" name="AddUserPanel">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="66" green="66" red="66" type="rgb"/>
+              <Color blue="4a" green="2d" red="1e" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
@@ -156,7 +156,7 @@
         <Container class="javax.swing.JPanel" name="RemoveUserPanel">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="66" green="66" red="66" type="rgb"/>
+              <Color blue="4a" green="2d" red="1e" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
@@ -195,7 +195,7 @@
         <Container class="javax.swing.JPanel" name="ApproveUserPanel">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="66" green="66" red="66" type="rgb"/>
+              <Color blue="4a" green="2d" red="1e" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
@@ -230,7 +230,7 @@
         <Container class="javax.swing.JPanel" name="UserOutPanel">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="66" green="66" red="66" type="rgb"/>
+              <Color blue="4a" green="2d" red="1e" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
@@ -282,7 +282,7 @@
             <Container class="javax.swing.JPanel" name="UserPanel">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="99" green="99" red="99" type="rgb"/>
+                  <Color blue="34" green="20" red="12" type="rgb"/>
                 </Property>
               </Properties>
 

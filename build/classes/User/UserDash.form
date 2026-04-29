@@ -37,7 +37,7 @@
     <Container class="javax.swing.JPanel" name="mainPanel">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="99" green="99" red="99" type="rgb"/>
+          <Color blue="f1" green="f0" red="ec" type="rgb"/>
         </Property>
         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[570, 450]"/>
@@ -51,7 +51,7 @@
         <Container class="javax.swing.JPanel" name="EditPasswordPanel">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="66" green="66" red="66" type="rgb"/>
+              <Color blue="4a" green="2d" red="1e" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
@@ -93,7 +93,7 @@
         <Container class="javax.swing.JPanel" name="BookingHistoryPanel">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="66" green="66" red="66" type="rgb"/>
+              <Color blue="4a" green="2d" red="1e" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
@@ -135,7 +135,7 @@
         <Container class="javax.swing.JPanel" name="UserPanel">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="66" green="66" red="66" type="rgb"/>
+              <Color blue="4a" green="2d" red="1e" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
@@ -229,7 +229,7 @@
             <Container class="javax.swing.JPanel" name="UserPanel2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="99" green="99" red="99" type="rgb"/>
+                  <Color blue="34" green="20" red="12" type="rgb"/>
                 </Property>
               </Properties>
 
@@ -261,7 +261,7 @@
         <Container class="javax.swing.JPanel" name="ViewReceiptsPanel">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="66" green="66" red="66" type="rgb"/>
+              <Color blue="4a" green="2d" red="1e" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
